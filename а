@@ -1,0 +1,141 @@
+/* Полосы аниме и манги */
+.b-stats_bar.anime .bar .first {
+background: linear-gradient(22deg, #c3aed6, #ffc9e4)
+}
+.b-stats_bar.anime .bar .second {
+background: linear-gradient(22deg, #e6e6e6, #ccc)
+}
+.b-stats_bar.anime .bar .third {
+background: linear-gradient(112deg, #ccc, #b3b3b3)
+}
+.b-stats_bar.manga .bar .first {
+background: linear-gradient(22deg, #b8b4ec, #b4d6ec)
+}
+.b-stats_bar.manga .bar .second {
+background: linear-gradient(22deg, #e6e6e6, #ccc)
+}
+.b-stats_bar.manga .bar .third {
+background: linear-gradient(112deg, #ccc, #b3b3b3)
+}
+/* Полоска активности */
+.b-stats_bar.lifetime .bar .first {
+background: linear-gradient(22deg, #b491d3, #ffd5cd);
+}
+.b-stats_bar.lifetime .bar .third {
+background: linear-gradient(22deg, #e6e6e6, #ccc);
+}
+@media only screen and (min-width: 768px) {
+  .p-profiles-show .profile-content .cc-2 > .c-column {
+    width: 100%;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-left {
+    position: relative;
+    width: 77%;
+    padding-right: 30px;
+    margin-right: 0;
+    z-index: 1;
+  }
+
+  .p-profiles-show .lifetime {
+    margin-bottom: 15px;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right {
+    float: none;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a {
+    width: 23%;
+    overflow: hidden;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column {
+    width: 100%;
+    margin: 0;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column:last-child {
+    margin-top: 15px;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right > .block:last-child {
+    clear: both;
+  }
+}
+body {
+  background: url(https://i.yapx.ru/I9X38.png) center top / cover fixed;
+}
+.headline { background: linear-gradient(0deg, #e3d6ef, #e3d6ef) !important;
+}
+.midheadline { background: linear-gradient(0deg, #e3d6ef, #e3d6ef) !important;
+}
+.subheadline { background: linear-gradient(0deg, #e3d6ef, #e3d6ef) !important;
+} 
+.bar.simple .bar.s3 { background: #b4d6ec;}
+.bar.simple .bar:hover.s3 { background: #c3def0;}
+.bar.simple .bar.s2 { background: #b8b9ec;}
+.bar.simple .bar:hover.s2 { background: #c6c7f0;}
+.bar.simple .bar.s1 { background: #c8b4ec;}
+.bar.simple .bar:hover.s1 { background: #d3c3f0;}
+.bar.simple .bar.s0 { background: #d8b4ec;}
+.bar.simple .bar:hover.s0 { background: #e0c3f0;}
+.headline > a {
+ color: #655975;
+}
+.midheadline > a {
+color: #655975;
+}
+.subheadline > a {
+color: #655975;
+}
+.subheadline { 
+ color: #655975; 
+}
+/* Отображение дат в истории */
+@import url(https://css-club.web.app/css/history_dates.min.css);
+/* СМЕНА ОБЛОЖЕК */
+/* Общие настройки обложек */
+.b-catalog_entry .cover .image-cutter {
+  background-size: cover;
+  background-position: top center;
+}
+
+/* Список селекторов – скрываем стандартные обложки */
+.b-catalog_entry > a[href *= 'characters/2-'] img,
+.b-catalog_entry > a[href *= 'characters/1-'] img,
+.b-catalog_entry > a[href *= 'characters/89-'] img,
+.b-catalog_entry > a[href *= 'characters/1259-'] img {
+  opacity: 0; /* visibility: hidden ломает выбор аниме/персонажа в турнирах */
+}
+/* Смена обложки – Иллиясфиль фон Айнцберн */
+.b-catalog_entry a[href *= 'characters/2-'] .image-cutter {
+  background-image: url(https://i.yapx.ru/I9dNc.png);
+}
+/* Смена обложки – Мию Эдельфельт */
+.b-catalog_entry a[href *= 'characters/1-'] .image-cutter {
+  background-image: url(https://i.yapx.ru/I9dFS.png);
+}
+/* Смена обложки – Мию Эдельфельт */
+.b-catalog_entry a[href *= 'characters/89-'] .image-cutter {
+  background-image: url(https://i.yapx.ru/I9enF.jpg);
+}
+  /* Смена обложки – Мию Эдельфельт */
+.b-catalog_entry a[href *= 'characters/1259-'] .image-cutter {
+  background-image: url(https://i.yapx.ru/I9fAK.png);
+}
+.l-top_menu-v2 {
+  background: #c3aed6;
+} 
+.l-top_menu-v2 .submenu {
+ background: #c3aed6;
+}
+.l-top_menu-v2 .menu-dropdown>span {
+  background: #c3aed6;
+}
+ .l-top_menu-v2 .menu-icon:hover, .l-top_menu-v2 .menu-icon.active, .l-top_menu-v2 .menu-icon:focus, .l-top_menu-v2 .menu-dropdown.active > span, .l-top_menu-v2 .menu-dropdown > span:focus {
+   background: #d1bce5;
+}  
+.l-top_menu-v2 .menu-dropdown > span a:hover {
+  background: none;
+}
